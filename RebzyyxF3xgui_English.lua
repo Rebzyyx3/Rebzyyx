@@ -748,7 +748,7 @@ realmBtn.MouseButton1Down:Connect(function() TweenService:Create(realmBtn, Tween
 realmBtn.MouseButton1Up:Connect(function() TweenService:Create(realmBtn, TweenInfo.new(0.15), {BackgroundColor3 = BTN_HOVER}):Play() end)
 realmBtn.MouseButton1Click:Connect(function()
     pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/inkkkkkkkk/Theinkremains/refs/heads/main/realm.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Rebzyyx3/Rebzyyx/refs/heads/main/realm.lua"))()
     end)
 end)
 
